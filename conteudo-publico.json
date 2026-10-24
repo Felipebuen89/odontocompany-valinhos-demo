@@ -1,36 +1,49 @@
 {
-  "version": 1,
+  "version": 2,
   "campaign": {
-    "id": "sorriso-2-demo",
+    "id": "sorriso-2-campanha-visual-v2",
     "status": "demo",
     "label": "OFERTA DA SEMANA",
     "title": "Sorriso 2.0",
     "highlight": "Até 20% OFF",
-    "description": "Exemplo de campanha para apresentação.",
-    "disclaimer": "Campanha ilustrativa. Descontos e condições ainda não foram aprovados pela clínica.",
-    "cta": "Ver campanha",
+    "description": "Uma prévia especial para transformar os cuidados com o seu sorriso.",
+    "disclaimer": "*Campanha ilustrativa. O desconto de até 20% e os serviços participantes dependem de aprovação e regras da clínica.",
+    "cta": "Quero conhecer",
     "target": "promocoes",
     "validFrom": null,
     "validUntil": null
   },
   "notifications": [
     {
-      "id": "campanha-sorriso-2-demo",
+      "id": "sorriso-2-campanha-v2",
       "status": "demo",
       "type": "campaign",
-      "title": "Campanha Sorriso 2.0",
-      "body": "Prévia de uma oferta semanal. Sujeita à aprovação da clínica.",
+      "emoji": "🔥",
+      "title": "Sorriso 2.0 em destaque!",
+      "body": "✨ Espie a campanha da semana: até 20% OFF* em serviços selecionados (exemplo, ainda não aprovado).",
       "target": "promocoes",
       "publishedAt": "2026-10-24",
       "expiresAt": null
     },
     {
-      "id": "boas-vindas-demo",
+      "id": "agenda-avisos-v2",
       "status": "demo",
-      "type": "general",
-      "title": "Bem-vindo ao aplicativo",
-      "body": "Acompanhe novidades e avisos da OdontoCompany Valinhos neste espaço demonstrativo.",
-      "target": "inicio",
+      "type": "service",
+      "emoji": "📅",
+      "title": "Sua agenda, sempre por perto",
+      "body": "⏰ Veja como receber lembretes e avisos de consulta quando a clínica integrar o sistema.",
+      "target": "agenda",
+      "publishedAt": "2026-10-24",
+      "expiresAt": null
+    },
+    {
+      "id": "odc-novidades-v2",
+      "status": "demo",
+      "type": "benefits",
+      "emoji": "🎁",
+      "title": "Novidades do Plano ODC",
+      "body": "💚 Conheça a área de benefícios. Cobertura e utilizações só serão confirmadas pela clínica.",
+      "target": "beneficios",
       "publishedAt": "2026-10-24",
       "expiresAt": null
     }
