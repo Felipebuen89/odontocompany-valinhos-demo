@@ -1,0 +1,20 @@
+{
+  "name": "OdontoCompany Valinhos",
+  "short_name": "ODC Valinhos",
+  "description": "Experiência demonstrativa do paciente",
+  "lang": "pt-BR",
+  "id": "/odontocompany-valinhos-demo/",
+  "start_url": "./?origem=app",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7faf9",
+  "theme_color": "#006247",
+  "icons": [
+    {
+      "src": "assets/logo-embedded.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
