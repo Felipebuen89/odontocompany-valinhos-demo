@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "campaign": {
+    "id": "sorriso-2-demo",
+    "status": "demo",
+    "label": "OFERTA DA SEMANA",
+    "title": "Sorriso 2.0",
+    "highlight": "Até 20% OFF",
+    "description": "Exemplo de campanha para apresentação.",
+    "disclaimer": "Campanha ilustrativa. Descontos e condições ainda não foram aprovados pela clínica.",
+    "cta": "Ver campanha",
+    "target": "promocoes",
+    "validFrom": null,
+    "validUntil": null
+  },
+  "notifications": [
+    {
+      "id": "campanha-sorriso-2-demo",
+      "status": "demo",
+      "type": "campaign",
+      "title": "Campanha Sorriso 2.0",
+      "body": "Prévia de uma oferta semanal. Sujeita à aprovação da clínica.",
+      "target": "promocoes",
+      "publishedAt": "2026-10-24",
+      "expiresAt": null
+    },
+    {
+      "id": "boas-vindas-demo",
+      "status": "demo",
+      "type": "general",
+      "title": "Bem-vindo ao aplicativo",
+      "body": "Acompanhe novidades e avisos da OdontoCompany Valinhos neste espaço demonstrativo.",
+      "target": "inicio",
+      "publishedAt": "2026-10-24",
+      "expiresAt": null
+    }
+  ]
+}
